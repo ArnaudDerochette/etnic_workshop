@@ -200,6 +200,26 @@ body {
     outline: 2px dotted #ed563b;
 }
 
+.skip-to {
+    position: absolute;
+    left: 1vw;
+    top: 50%;
+    background: white;
+    border: 1px solid #ed563b;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #1e1e1e;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    pointer-events: none;
+}
+
+.skip-to:focus {
+    opacity: 1;
+}
+
 @media (max-width: 991px) {
     html,
     body {
@@ -1339,7 +1359,7 @@ responsive
 */
 
 @media (max-width: 992px) {
-    .main-banner .caption h2 {
+    .main-banner .caption h3 {
         font-size: 64px;
     }
     #features {
