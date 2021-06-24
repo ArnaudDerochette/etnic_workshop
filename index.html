@@ -98,9 +98,9 @@ https://templatemo.com/tm-548-training-studio
                                     <a href="#">Sign Up</a>
                                 </li>
                             </ul>
-                            <a class="menu-trigger">
-                                <span>Menu</span>
-                            </a>
+                            <button class="menu-trigger" aria-expanded="false">
+                                <span>Open the menu</span>
+                            </button>
                             <!-- ***** Menu End ***** -->
                         </nav>
                     </div>
@@ -142,6 +142,7 @@ https://templatemo.com/tm-548-training-studio
                                 <img
                                     src="assets/images/line-dec.png"
                                     alt="waves"
+                                    aria-hidden="true"
                                 />
                                 <p>
                                     Training Studio is free CSS template for
@@ -157,6 +158,7 @@ https://templatemo.com/tm-548-training-studio
                                         <img
                                             src="assets/images/features-first-icon.png"
                                             alt="First One"
+                                            aria-hidden="true"
                                         />
                                     </div>
                                     <div class="right-content">
@@ -177,6 +179,7 @@ https://templatemo.com/tm-548-training-studio
                                         <img
                                             src="assets/images/features-first-icon.png"
                                             alt="second one"
+                                            aria-hidden="true"
                                         />
                                     </div>
                                     <div class="right-content">
@@ -197,6 +200,7 @@ https://templatemo.com/tm-548-training-studio
                                         <img
                                             src="assets/images/features-first-icon.png"
                                             alt="third gym training"
+                                            aria-hidden="true"
                                         />
                                     </div>
                                     <div class="right-content">
@@ -226,6 +230,7 @@ https://templatemo.com/tm-548-training-studio
                                         <img
                                             src="assets/images/features-first-icon.png"
                                             alt="fourth muscle"
+                                            aria-hidden="true"
                                         />
                                     </div>
                                     <div class="right-content">
@@ -255,6 +260,7 @@ https://templatemo.com/tm-548-training-studio
                                         <img
                                             src="assets/images/features-first-icon.png"
                                             alt="training fifth"
+                                            aria-hidden="true"
                                         />
                                     </div>
                                     <div class="right-content">
@@ -274,6 +280,7 @@ https://templatemo.com/tm-548-training-studio
                                         <img
                                             src="assets/images/features-first-icon.png"
                                             alt="gym training"
+                                            aria-hidden="true"
                                         />
                                     </div>
                                     <div class="right-content">
@@ -345,6 +352,7 @@ https://templatemo.com/tm-548-training-studio
                                         ><img
                                             src="assets/images/tabs-first-icon.png"
                                             alt=""
+                                            aria-hidden="true"
                                         />First Training Class</a
                                     >
                                 </li>
@@ -353,6 +361,7 @@ https://templatemo.com/tm-548-training-studio
                                         ><img
                                             src="assets/images/tabs-first-icon.png"
                                             alt=""
+                                            aria-hidden="true"
                                         />Second Training Class</a
                                     >
                                 </li>
@@ -361,6 +370,7 @@ https://templatemo.com/tm-548-training-studio
                                         ><img
                                             src="assets/images/tabs-first-icon.png"
                                             alt=""
+                                            aria-hidden="true"
                                         />Third Training Class</a
                                     >
                                 </li>
@@ -369,6 +379,7 @@ https://templatemo.com/tm-548-training-studio
                                         ><img
                                             src="assets/images/tabs-first-icon.png"
                                             alt=""
+                                            aria-hidden="true"
                                         />Fourth Training Class</a
                                     >
                                 </li>
@@ -382,7 +393,7 @@ https://templatemo.com/tm-548-training-studio
                                 <article id="tabs-1">
                                     <img
                                         src="assets/images/training-image-01.jpg"
-                                        alt="First Class"
+                                        alt="Un homme qui souleve une altère de musculation"
                                     />
                                     <h3>First Training Class</h3>
                                     <p>
@@ -402,7 +413,7 @@ https://templatemo.com/tm-548-training-studio
                                 <article id="tabs-2">
                                     <img
                                         src="assets/images/training-image-02.jpg"
-                                        alt="Second Training"
+                                        alt="Une femme fait du pilatte sur un tapis de yoga"
                                     />
                                     <h3>Second Training Class</h3>
                                     <p>
@@ -423,7 +434,7 @@ https://templatemo.com/tm-548-training-studio
                                 <article id="tabs-3">
                                     <img
                                         src="assets/images/training-image-03.jpg"
-                                        alt="Third Class"
+                                        alt="Une femme muscle sont dos grâce à du matériel de fitness"
                                     />
                                     <h3>Third Training Class</h3>
                                     <p>
@@ -443,7 +454,7 @@ https://templatemo.com/tm-548-training-studio
                                 <article id="tabs-4">
                                     <img
                                         src="assets/images/training-image-04.jpg"
-                                        alt="Fourth Training"
+                                        alt="Une femme fait la planche grâce à un ballon de fitness"
                                     />
                                     <h3>Fourth Training Class</h3>
                                     <p>
@@ -483,7 +494,7 @@ https://templatemo.com/tm-548-training-studio
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="filters">
-                                <ul class="schedule-filter">
+                                <ul class="schedule-filter" aria-hidden="true">
                                     <li class="active" data-tsfilter="monday">
                                         Monday
                                     </li>
@@ -497,7 +508,24 @@ https://templatemo.com/tm-548-training-studio
                         <div class="col-lg-10 offset-lg-1">
                             <div class="schedule-table filtering">
                                 <table>
+                                    <caption class="sr-only">
+                                        Classes Schedule for a week
+                                    </caption>
                                     <tbody>
+                                        <tr class="sr-only">
+                                            <th scope="col">
+                                                Name of the class
+                                            </th>
+                                            <th scope="col">
+                                                Schedule for the morning
+                                            </th>
+                                            <th scope="col">
+                                                Schedule for the afternoon
+                                            </th>
+                                            <th scope="col">
+                                                Name of the teacher
+                                            </th>
+                                        </tr>
                                         <tr>
                                             <td class="day-time">
                                                 Fitness Class
@@ -506,15 +534,30 @@ https://templatemo.com/tm-548-training-studio
                                                 class="monday ts-item show"
                                                 data-tsmeta="monday"
                                             >
-                                                10:00AM - 11:30AM
+                                                <span class="sr-only"
+                                                    >On monday from
+                                                </span>
+                                                10:00AM -
+                                                <span class="sr-only">to </span>
+                                                11:30AM
                                             </td>
                                             <td
                                                 class="tuesday ts-item"
                                                 data-tsmeta="tuesday"
                                             >
-                                                2:00PM - 3:30PM
+                                                <span class="sr-only"
+                                                    >On tuesday from
+                                                </span>
+                                                2:00PM -
+                                                <span class="sr-only">to </span>
+                                                3:30PM
                                             </td>
-                                            <td>William G. Stewart</td>
+                                            <td>
+                                                <span class="sr-only"
+                                                    >With</span
+                                                >
+                                                William G. Stewart
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="day-time">
@@ -524,16 +567,31 @@ https://templatemo.com/tm-548-training-studio
                                                 class="friday ts-item"
                                                 data-tsmeta="friday"
                                             >
-                                                10:00AM - 11:30AM
+                                                <span class="sr-only"
+                                                    >On friday from
+                                                </span>
+                                                10:00AM -
+                                                <span class="sr-only">to </span>
+                                                11:30AM
                                             </td>
                                             <td
                                                 class="thursday friday ts-item"
                                                 data-tsmeta="thursday"
                                                 data-tsmeta="friday"
                                             >
-                                                2:00PM - 3:30PM
+                                                <span class="sr-only"
+                                                    >On friday from
+                                                </span>
+                                                2:00PM -
+                                                <span class="sr-only">to </span>
+                                                3:30PM
                                             </td>
-                                            <td>Paul D. Newman</td>
+                                            <td>
+                                                <span class="sr-only"
+                                                    >With</span
+                                                >
+                                                Paul D. Newman
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="day-time">
@@ -543,15 +601,30 @@ https://templatemo.com/tm-548-training-studio
                                                 class="tuesday ts-item"
                                                 data-tsmeta="tuesday"
                                             >
-                                                10:00AM - 11:30AM
+                                                <span class="sr-only"
+                                                    >On tuesday from
+                                                </span>
+                                                10:00AM -
+                                                <span class="sr-only">to </span>
+                                                11:30AM
                                             </td>
                                             <td
                                                 class="monday ts-item show"
                                                 data-tsmeta="monday"
                                             >
-                                                2:00PM - 3:30PM
+                                                <span class="sr-only"
+                                                    >On monday from
+                                                </span>
+                                                2:00PM -
+                                                <span class="sr-only">to </span>
+                                                3:30PM
                                             </td>
-                                            <td>Boyd C. Harris</td>
+                                            <td>
+                                                <span class="sr-only"
+                                                    >With</span
+                                                >
+                                                Boyd C. Harris
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="day-time">
@@ -561,15 +634,30 @@ https://templatemo.com/tm-548-training-studio
                                                 class="wednesday ts-item"
                                                 data-tsmeta="wednesday"
                                             >
-                                                10:00AM - 11:30AM
+                                                <span class="sr-only"
+                                                    >On wednesday from
+                                                </span>
+                                                10:00AM -
+                                                <span class="sr-only">to </span>
+                                                11:30AM
                                             </td>
                                             <td
                                                 class="friday ts-item"
                                                 data-tsmeta="friday"
                                             >
-                                                2:00PM - 3:30PM
+                                                <span class="sr-only"
+                                                    >On friday from
+                                                </span>
+                                                2:00PM -
+                                                <span class="sr-only">to </span>
+                                                3:30PM
                                             </td>
-                                            <td>Hector T. Daigle</td>
+                                            <td>
+                                                <span class="sr-only"
+                                                    >With</span
+                                                >
+                                                Hector T. Daigle
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="day-time">
@@ -579,15 +667,30 @@ https://templatemo.com/tm-548-training-studio
                                                 class="thursday ts-item"
                                                 data-tsmeta="thursday"
                                             >
-                                                10:00AM - 11:30AM
+                                                <span class="sr-only"
+                                                    >On thursday from
+                                                </span>
+                                                10:00AM -
+                                                <span class="sr-only">to </span>
+                                                11:30AM
                                             </td>
                                             <td
                                                 class="wednesday ts-item"
                                                 data-tsmeta="wednesday"
                                             >
-                                                2:00PM - 3:30PM
+                                                <span class="sr-only"
+                                                    >On wednesday from
+                                                </span>
+                                                2:00PM -
+                                                <span class="sr-only">to </span>
+                                                3:30PM
                                             </td>
-                                            <td>Bret D. Bowers</td>
+                                            <td>
+                                                <span class="sr-only"
+                                                    >With</span
+                                                >
+                                                Bret D. Bowers
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>

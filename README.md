@@ -7,7 +7,9 @@ Cette branche sert de correctif à l'exercice.
 Une breve analyse qui permet de voir que les points suivants ne sont pas accessibles.
 
 -   [ ] Le menu
-    -   [ ] Ajouter un 'skip to content'
+    -   [x] Ajouter un 'skip to content'
+    -   [ ] Le burger menu n'est pas focusable, on ne peut pas ouvrir le menu au clavier
+    -   [ ] Ajouter une indiquation dans le menu pour connaitre la page courrante
 -   [x] Le focus n'est pas visible.
 -   [ ] les contrastes de couleurs ne sont pas assez élevés
 -   [x] la hiérarchie des titres n'est pas cohérente

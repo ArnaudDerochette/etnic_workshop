@@ -196,8 +196,8 @@ body {
     color: #fff;
 }
 
-:focus {
-    outline: 2px dotted #ed563b;
+*:focus {
+    outline: 5px dotted #ed563b !important;
 }
 
 .skip-to {
@@ -214,6 +214,7 @@ body {
     opacity: 0;
     transition: opacity 150ms ease-in-out;
     pointer-events: none;
+    z-index: 999;
 }
 
 .skip-to:focus {
@@ -475,10 +476,19 @@ header
     opacity: 1;
 }
 
+.header-area .main-nav .nav li a:focus,
+.header-area.header-sticky .nav li a.active:focus {
+    background: transparent;
+    color: #ed563b !important;
+    opacity: 1;
+}
+
 .header-area .main-nav .menu-trigger {
     cursor: pointer;
     display: block;
     position: absolute;
+    border: none;
+    background: transparent;
     top: 23px;
     width: 32px;
     height: 40px;
