@@ -1,27 +1,20 @@
 # ETNIC Workshop A11Y
 
-Vous trouverez dans cette branche le template du site à cloner.
+Cette branche sert de correctif à l'exercice.
 
-## Fichiers à modifier
+## 1.Analyse
 
-- index.html
-- assets/lightbox.js
+Une breve analyse qui permet de voir que les points suivants ne sont pas accessibles.
 
-## Partie 01 : Le menu
-
-Le menu est un menu très classique. Pour l'exercice, assurez-vous dans un premier temps que le menu soit le plus accessible possible. Dans un second temps vous pouvez étoffer ce menu en ajoutant pourquoi pas un sous-menu (dropdown). Gardez en tête que ce menu sera consulter à chaque navigation et que lorsque la page se recharge, la tabulation peux repartir du haut de la page. Pas évident de naviguer à travers tout le menu  à chaque fois ...
-
-## Partie 02 : Les fenêtres modales
-
-Dans la section "EXPERT TRAINERS" de la page, un grille des témoignages est présentée. Au clique sur l'image d'une carte, une fenêtre modale très basique s'ouvre. A vous de faire le maximum pour la rendre accessible.
-Pensez avant-tout à toutes les actions que nous faisons déjà (fermer la fenêtre, revenir au début, à la fin, ...)
-Pour ceux qui veulent aller plus loin, vous pouvez améliorer les choses avec un systême de gallerie/lightbox (avec des flêches pour passer d'une carte à l'autre sans que la modale se ferme, ...)
-
-## Partie 03 : Formulaire de contact
-
-Juste avant le pied de page, vous trouverez un formulaire de contact encore une fois très classique. Les formulaires font partie des elements clefs d'une application web. Assurez vous que n'importe qui puisse envoyer ce formulaire sans soucis. 
-
-
-## Solutions
-
-Sur la branche "v2-solution", vous trouverez le code 'corrigé'. Les solutions proposées dans ce code sont plus des indications/pistes à explorer, que des solutions définitives.
+- Le focus n'est pas visible.
+- les contrastes de couleurs ne sont pas assez élevés
+- la hiérarchie des titres n'est pas cohérente
+- landmarks pas suffisants
+- Les noms ne sont pas remplis pour certains liens/images/...
+- La partie 'OUR CLASSES' n'est pas formattée sous forme d'onglets
+- La partie 'EXPERT TRAINERS' contient des fenêtres modales.
+  - Ces fenêtres doivent pouvoir boucler le focus, c'est à dire que lorsqu'on est sur le dernier élément de la modale et qu'on tabule pour passer au suivant, le focus doit revenir au premier et non pas sortir de la modale.
+  - Un utilisateur de clavier dois pouvoir quitter facilement la modale, en général avec la touche ECHAP
+  - La taille des icones est trop petite pour des utilisateurs avec des problèmes de vue.
+  - Lorsqu'on zoom, on perd la possibilité de scroller dans la modale.
+  - Le reste du DOM ne dois pas être navigable (ni scrollable) quand la modale est active
