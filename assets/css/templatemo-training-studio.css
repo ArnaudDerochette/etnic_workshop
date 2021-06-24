@@ -172,7 +172,7 @@ ul {
 p {
     font-size: 14px;
     line-height: 25px;
-    color: #7a7a7a;
+    color: #767676;
 }
 
 /* 
@@ -187,17 +187,17 @@ body {
 }
 
 ::selection {
-    background: #ed563b;
+    background: #d74025;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #ed563b;
+    background: #d74025;
     color: #fff;
 }
 
 *:focus {
-    outline: 5px dotted #ed563b !important;
+    outline: 5px dotted #d74025 !important;
 }
 
 .skip-to {
@@ -205,7 +205,7 @@ body {
     left: 1vw;
     top: 50%;
     background: white;
-    border: 1px solid #ed563b;
+    border: 1px solid #d74025;
     padding: 0.5em 1em;
     border-radius: 10px;
     font-weight: bold;
@@ -256,7 +256,7 @@ body {
 
 .section-heading h2 em {
     font-style: normal;
-    color: #ed563b;
+    color: #d74025;
 }
 
 .section-heading img {
@@ -275,7 +275,7 @@ body {
     display: inline-block;
     font-size: 15px;
     padding: 12px 20px;
-    background-color: #ed563b;
+    background-color: #d74025;
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -317,11 +317,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-    color: #ed563b;
+    color: #d74025;
 }
 
 .background-header .nav li a.active {
-    color: #ed563b;
+    color: #d74025;
 }
 
 .header-area {
@@ -358,7 +358,7 @@ header
 
 .header-area .main-nav .logo em {
     font-style: normal;
-    color: #ed563b;
+    color: #d74025;
     font-weight: 900;
 }
 
@@ -385,7 +385,7 @@ header
     display: block;
     font-weight: 500;
     font-size: 13px;
-    color: #7a7a7a;
+    color: #767676;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -405,7 +405,7 @@ header
     display: inline-block;
     font-size: 13px;
     padding: 11px 17px;
-    background-color: #ed563b;
+    background-color: #d74025;
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -439,7 +439,7 @@ header
 
 .sub-menu > li:hover > a,
 .sub-menu > li:hover > a.active {
-    color: #ed563b !important;
+    color: #d74025 !important;
 }
 
 .header-area .main-nav .nav .sub-menu a {
@@ -466,20 +466,20 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-    color: #ed563b;
+    color: #d74025;
     opacity: 1;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-    color: #ed563b;
+    color: #d74025;
     opacity: 1;
 }
 
 .header-area .main-nav .nav li a:focus,
 .header-area.header-sticky .nav li a.active:focus {
     background: transparent;
-    color: #ed563b !important;
+    color: #d74025 !important;
     opacity: 1;
 }
 
@@ -605,7 +605,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-    color: #ed563b;
+    color: #d74025;
 }
 
 @media (max-width: 1200px) {
@@ -624,7 +624,7 @@ header
     }
     .header-area.header-sticky .nav li a:hover,
     .header-area.header-sticky .nav li a.active {
-        color: #ed563b !important;
+        color: #d74025 !important;
         opacity: 1;
     }
     .header-area {
@@ -661,15 +661,15 @@ header
     }
     .header-area .main-nav .nav li:last-child {
         width: 100%;
-        background-color: #ed563b;
+        background-color: #d74025;
         color: #fff;
     }
     .header-area .main-nav .nav li:last-child a {
-        background-color: #ed563b !important;
+        background-color: #d74025 !important;
     }
     .header-area .main-nav .nav li:last-child a:hover,
     .header-area .main-nav .nav li:last-child:hover a {
-        background-color: #ed563b !important;
+        background-color: #d74025 !important;
         color: #fff !important;
     }
     .header-area.header-sticky .nav {
@@ -695,7 +695,7 @@ header
     }
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
-        color: #ed563b !important;
+        color: #d74025 !important;
     }
     .header-area .main-nav .nav li.submenu ul {
         position: relative;
@@ -776,6 +776,7 @@ banner
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5) !important;
 }
 
 .main-banner .caption h2 {
@@ -799,7 +800,7 @@ banner
 
 .main-banner .caption h3 em {
     font-style: normal;
-    color: #ed563b;
+    color: #d74025;
     font-weight: 900;
 }
 
@@ -842,7 +843,7 @@ features
     display: inline-block;
     font-size: 13px;
     text-transform: uppercase;
-    color: #ed563b;
+    color: #d74025;
     font-weight: 500;
 }
 
@@ -871,7 +872,7 @@ subscribe
 
 .cta-content h2 em {
     font-style: normal;
-    color: #ed563b;
+    color: #d74025;
 }
 
 .cta-content p {
@@ -927,7 +928,7 @@ Our Classes
     font-size: 19px;
     letter-spacing: 0.5px;
     font-weight: 600;
-    background-color: #ed563b;
+    background-color: #d74025;
 }
 #tabs .main-rounded-button a:hover {
     background-color: #f9735b;
@@ -943,7 +944,7 @@ Our Classes
     border-bottom: none;
 }
 #tabs ul .ui-tabs-active a {
-    color: #ed563b;
+    color: #d74025;
 }
 #tabs ul .ui-tabs-active span {
     color: #1e1e1e;
@@ -969,7 +970,7 @@ Our Classes
 }
 .tabs-content p {
     font-size: 14px;
-    color: #7a7a7a;
+    color: #767676;
     margin-bottom: 28px;
 }
 
@@ -1060,7 +1061,7 @@ schedule
 }
 #schedule .filters ul li.active,
 #schedule .filters ul li:hover {
-    color: #ed563b;
+    color: #d74025;
 }
 #schedule .filters-content {
     margin-top: 50px;
@@ -1097,7 +1098,7 @@ trainers
 #trainers .trainer-item span {
     font-size: 13px;
     font-weight: 500;
-    color: #ed563b;
+    color: #d74025;
     display: inline-block;
     margin-top: 25px;
     margin-bottom: 10px;
@@ -1130,7 +1131,7 @@ trainers
 }
 
 #trainers .trainer-item ul.social-icons li a:hover {
-    color: #ed563b;
+    color: #d74025;
 }
 
 /* 
@@ -1180,7 +1181,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-    color: #7a7a7a;
+    color: #767676;
     font-size: 13px;
     border: 1px solid #ddd;
     background-color: #fff;
@@ -1202,16 +1203,16 @@ contact
 
 .contact-form ::-webkit-input-placeholder {
     /* Edge */
-    color: #7a7a7a;
+    color: #767676;
 }
 
 .contact-form :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #7a7a7a;
+    color: #767676;
 }
 
 .contact-form ::placeholder {
-    color: #7a7a7a;
+    color: #767676;
 }
 
 .contact-form button#contactCancel {
@@ -1223,7 +1224,7 @@ contact
     display: inline-block;
     font-size: 13px;
     padding: 11px 17px;
-    background-color: #ed563b;
+    background-color: #d74025;
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -1255,11 +1256,11 @@ footer p {
 
 footer p a {
     cursor: pointer;
-    color: #ed563b;
+    color: #d74025;
 }
 
 footer p a:hover {
-    color: #ed563b;
+    color: #d74025;
 }
 
 /* 
